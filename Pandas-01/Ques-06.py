@@ -1,0 +1,9 @@
+import pandas as pd
+
+t = pd.read_csv("Pandas-01/Titanic-Dataset.csv")
+
+print(t["Pclass"].nunique())
+
+print(t["Pclass"].unique())
+
+print(t["Pclass"].value_counts())
